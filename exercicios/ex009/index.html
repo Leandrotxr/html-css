@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações e códigos</title>
+    <link rel="shortcut icon" href="Html-5.ico.ico" type="image/x-icon">
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        mark{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1><mark>Outras formatações</mark></h1>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>O comando <code>document.getElementoById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre> <!--mantém a identação que o code não tem-->
+        <code> <!--não possui identação-->
+    num = int(input(Digite um número))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações</h2>
+    <p>Como diria o pai de uma amigo: <q>o computador é um burro muito rápido</q></p>
+    <!-- a tag q coloca as aspas automaticamente, usar para ter sentido de citação-->
+
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+</body>
+</html>
